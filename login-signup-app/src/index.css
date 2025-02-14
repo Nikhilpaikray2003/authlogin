@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url("../public/images/asdf.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure full height coverage */
+html, body, #root {
+  height: 100%;
+}
+
+/* Scroll behavior */
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* Code Font */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
